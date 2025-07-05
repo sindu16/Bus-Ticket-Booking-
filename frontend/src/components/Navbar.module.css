@@ -1,0 +1,15 @@
+.navItem {
+    transition: color 0.3s ease;
+  }
+  
+  .navItem:hover {
+    color: #dc3545 !important;
+    font-weight: 500;
+  }
+  
+  .activeLink {
+    color: #dc3545 !important;
+    font-weight: 600;
+    border-bottom: 2px solid #dc3545;
+  }
+  

@@ -1,0 +1,104 @@
+
+.formContainer {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 800px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.busForm {
+  width: 100%;
+  max-width: 600px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+}
+
+.busForm h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.busForm input[type="text"],
+.busForm input[type="number"],
+.busForm input[type="time"],
+.busForm select {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fdfdfd;
+  margin-bottom: 18px;
+  box-sizing: border-box;
+}
+
+.busForm select {
+  /* Add extra margin bottom if needed */
+  margin-bottom: 18px;
+}
+
+.busForm label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #444;
+}
+
+.amenitiesContainer {
+  margin-bottom: 18px;
+}
+
+.amenitiesContainer p {
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #444;
+}
+
+.amenitiesContainer label {
+  display: inline;
+  align-items: center;
+  font-size: 14px;
+  color: #555;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.amenitiesContainer input[type="checkbox"] {
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+.submitBtn {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.submitBtn:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.submitBtn:disabled {
+  cursor: not-allowed;
+  background-color: #7aa7e0;
+}
+
+.text-danger {
+  color: #dc3545;
+  margin-top: 8px;
+  font-weight: 600;
+  text-align: center;
+}

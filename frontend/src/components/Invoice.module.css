@@ -1,0 +1,212 @@
+.invoiceWrapper {
+  padding: 30px;
+  background-color: #f4f4f4;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 80px;
+}
+
+.ticketCard {
+  display: flex;
+  max-width: 1400px;
+  margin: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.leftSection {
+  flex: 2;
+  padding: 20px;
+  border-right: 2px dashed #ccc;
+}
+
+.rightSection {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.headerRed {
+  background-color: #e60000;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  justify-content: space-between;
+  border-radius: 10px 10px 0 0;
+}
+
+.headerText {
+  flex: 1;
+  text-align: left;
+  margin-left: 80px;
+}
+
+.busImage {
+  height: 80px;
+  margin-right: 10px;
+}
+
+.ticketLabel {
+  background-color: white;
+  color: red;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.infoSection {
+  text-align: left;
+  margin-top: 15px;
+}
+
+.detailsRow {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.routeInfo {
+  text-align: center;
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+.priceStatus {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.paidStatus {
+  background-color: #d4f5e9;
+  color: green;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: 1px solid green;
+}
+
+.footerNote {
+  background-color: #e60000;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 0 0 10px 10px;
+  font-size: 14px;
+}
+
+.qr {
+  /* margin: 15px auto;
+  display: flex;
+  justify-content: center; */
+  /* display: flex;
+  justify-content: end;
+  width: 100%;
+  padding: 0 10px; */
+}
+
+.ticketText {
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.contactStrip {
+  margin-top: 20px;
+  font-size: 13px;
+  color: #e60000;
+  font-weight: bold;
+}
+
+.downloadBtn {
+  margin-top: 25px;
+  padding: 12px 30px;
+  background-color: #e60000;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* .InvoiceCenter {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.InvoiceFields {
+  flex-direction: column;
+  margin-top: 10px;
+} */
+
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 24px;
+  }
+
+  .ticketCard {
+    flex-direction: column;
+  }
+
+  .leftSection,
+  .rightSection {
+    padding: 15px;
+  }
+
+  .detailsRow {
+    font-size: 12px;
+  }
+
+  .ticketText {
+    font-size: 12px;
+  }
+
+  .footerNote {
+    font-size: 12px;
+  }
+
+  .downloadBtn {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .headerRed {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+  }
+
+  .busImage {
+    height: 60px;
+  }
+
+  .headerText {
+    margin-left: 0;
+  }
+
+  .detailsRow {
+    font-size: 12px;
+  }
+
+  .routeInfo {
+    font-size: 14px;
+  }
+
+  .downloadBtn {
+    padding: 10px 20px;
+  }
+}

@@ -1,0 +1,65 @@
+.container {
+  padding: 2rem;
+}
+
+.left, .right {
+  margin-top: 80px;
+}
+
+h4, h5 {
+  margin-bottom: 1rem;
+}
+
+.ticketBox {
+  border: 1px solid #ccc;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background-color: #f8f8f8;
+  margin-bottom: 21px;
+}
+
+.ticketBox p {
+  margin: 0.3rem 0;
+}
+
+.ticketBox span {
+  font-weight: 600;
+}
+
+.seats {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.seats span {
+  background-color: #eee;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.totalPrice {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+}
+
+.payInvoice {
+  background-color: #e30613;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.buttonpays {
+  background-color: #e30613;
+  color: white;
+  margin: 5px;
+  border-radius: 8px;
+  padding: 0.8rem;
+  font-size: 1rem;
+}

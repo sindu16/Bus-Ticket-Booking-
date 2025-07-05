@@ -1,0 +1,93 @@
+.container {
+    padding: 2rem;
+    background-color: #f8f9fa;
+  }
+  
+  .searchBar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 1rem;
+    margin-top: 50px;
+  }
+  
+  .searchBtn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    width: 113px;
+    height: 44px;
+
+  }
+  
+  .filters {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+  
+  .filterBox {
+    margin-top: 1rem;
+  }
+  
+  .busCard {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+  
+  .busLeft, .busRight {
+    width: 40%;
+  }
+  
+  .busMid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .busIcon {
+    font-size: 2rem;
+    color: red;
+  }
+  
+  .busName {
+    font-weight: bold;
+  }
+  
+  .tag {
+    background: #f1f1f1;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .reserveBtn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+   
+  }
+  .busRight{
+    margin-top: 30px;
+
+  }
+
+  input[type="range"] {
+    border: none;
+    outline: none;
+    background: transparent;
+    box-shadow: none;
+  }
+  
+  

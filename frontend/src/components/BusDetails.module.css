@@ -1,0 +1,100 @@
+.busDetailsContainer {
+    padding: 2rem;
+    background: #fff;
+    border-radius: 10px;
+    margin: 2rem auto;
+    max-width: 1100px;
+  }
+  
+  .description {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .hideButton {
+    margin-bottom: 1.5rem;
+  }
+  
+  .detailsGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .amenities, .policies {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .amenities h5,
+  .policies h5 {
+    margin-bottom: 1rem;
+    color: #d10000;
+  }
+  
+  .amenities ul,
+  .policies ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .amenities li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .amenities li svg {
+    margin-right: 8px;
+  }
+  
+  .available {
+    color: green;
+  }
+  
+  .unavailable {
+    color: red;
+  }
+  
+  .imageGallery {
+    display: flex;
+    gap: 1rem;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+  }
+  
+  .busImage {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  @media (max-width: 768px) {
+  .detailsGrid {
+    flex-direction: column;
+  }
+
+  .busImage {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+  }
+}
+.imageGallery {
+  display: flex;
+  flex-wrap: wrap; /* Enable wrapping on smaller screens */
+  justify-content: center;
+  gap: 1rem;
+}
+
+.busImage {
+  width: 100%;
+  max-width: 250px; 
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}

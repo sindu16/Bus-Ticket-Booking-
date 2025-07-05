@@ -1,0 +1,55 @@
+.footer {
+  background-color: white;
+  padding: 1.5rem 2rem;
+  text-align: center;
+  color:black;
+  font-size: 0.9rem;
+  margin-top: auto;
+  border-top: 1px solid #faf7f7;
+ 
+  
+}
+  
+  .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: red;
+  }
+  
+  .description {
+    font-size: 0.9rem;
+    color: black;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .socialIcons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    color: black;
+  }
+  
+  .title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .linkList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .linkList li {
+    margin-bottom: 0.5rem;
+    color: black;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .linkList li:hover {
+    color: red;
+  }
+  
